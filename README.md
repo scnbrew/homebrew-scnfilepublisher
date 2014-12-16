@@ -1,4 +1,4 @@
-§homebrew-scnfilepublisher
+homebrew-scnfilepublisher
 =========================
 Renames files based on templates.  
 Copies them to target folder.
@@ -9,7 +9,7 @@ create setup.py using the following command
 replace src/helloworld.py with the source of the actual program once we get that far  
 
 <code>
-py2applet --make-setup src/helloworld.py
+py2applet `--`make-setup src/helloworld.py
 </code>
 
 build a development version of the app using the following command  
